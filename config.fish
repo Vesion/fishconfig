@@ -33,6 +33,7 @@ alias gaa='git add --all'
 alias gb='git branch'
 alias gba='git branch -a'
 alias gbd='git branch -d'
+alias gbD='git branch -D'
 alias gbr='git branch --remote'
 
 alias gc='git commit'
@@ -45,7 +46,7 @@ alias gcom='git checkout master'
 alias gcob='git checkout -b'
 
 alias gd='git diff'
-alias gdca='git diff --cached'
+alias gdh='git diff HEAD^ HEAD'
 
 alias gf='git fetch'
 alias gfp='git pull'
@@ -57,5 +58,6 @@ alias gpf='git push --force'
 alias gl="git log --graph --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 alias grv='git remote -v'
+alias grpb='git remote prune origin'
 
 alias gs='git status'
